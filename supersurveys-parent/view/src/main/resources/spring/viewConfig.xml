@@ -14,11 +14,12 @@
 	http://www.springframework.org/schema/mvc 
 	http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd">
 
+	<import resource="serviceConfig.xml" />
+
 	<!-- Load all Java properties files to ensure that all properties will be 
 		accessible -->
-	<context:property-placeholder location="classpath*:*.properties" />
 
-	<context:component-scan base-package="com.martinlinha.supersurveys.controller" />
+	<context:component-scan base-package="com.martinlinha.supersurveys.view.controller" />
 
 	<mvc:annotation-driven />
 </beans>

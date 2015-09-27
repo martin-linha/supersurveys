@@ -3,15 +3,15 @@ package com.martinlinha.supersurveys.persistence.entity;
 import javax.persistence.Entity;
 
 @Entity
-public class Answer {
+public class Answer extends BaseEntity {
 
-	private String content;
+	private String value;
 
-	public String getContent() {
-		return content;
+	public String getValue() {
+		return value;
 	}
 
-	public void setContent(String content) {
-		this.content = content;
+	public void setValue(String value) {
+		this.value = value;
 	}
 }

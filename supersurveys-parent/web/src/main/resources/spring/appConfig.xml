@@ -7,11 +7,8 @@
 
 	<!-- Load all Java properties files to ensure that all properties will be 
 		accessible -->
-	<context:property-placeholder location="classpath*:*.properties" />
 
 	<import resource="classpath:spring/viewConfig.xml" />
-
-
 
 	<bean id="viewResolver"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">

@@ -1,4 +1,4 @@
-package com.martinlinha.supersurveys.controller;
+package com.martinlinha.supersurveys.view.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
