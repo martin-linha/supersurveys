@@ -28,7 +28,7 @@ public abstract class BaseEntity {
 	public void prePersist() {
 		createdOn = new Date();
 	}
-	
+
 	@PreUpdate
 	public void preUpdate() {
 		lastModified = new Date();
@@ -46,7 +46,7 @@ public abstract class BaseEntity {
 		return createdOn;
 	}
 
-	public void setCreatedOn(Date createdOn) {
-		this.createdOn = createdOn;
+	public Date getLastModified() {
+		return lastModified;
 	}
 }
